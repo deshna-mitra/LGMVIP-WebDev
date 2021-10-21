@@ -1,0 +1,302 @@
+*{
+    margin:0px;
+            padding:0px;
+            
+        }
+#first{
+        
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(1, 0, 10, 0.5),rgba(1, 0, 10, 0.5)),url(images/mountains.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+#main{
+    width:100%;
+    height:50vh;
+    position: relative;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 1;
+}
+.logo img{
+    height:80px;
+}
+.menu{
+    list-style:none;
+    display:flex;
+}
+.menu li a{
+    height:40px;
+    line-height: 43px;
+    margin:3px;
+    padding:0px 22px;
+    display:flex;
+    font-size:0.8em;
+    text-transform:uppercase;
+    font-weight:500;
+    letter-spacing: 1px;
+    color:rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: rgba(218, 218, 85, 0.466) ;
+    color:white;
+    box-shadow:5px 10px 30px rgba(24,139,119,0.2)  ;
+    transition:all ease 0.2s;
+
+}
+.content{
+    display: flex;
+    width:90%;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    left:50%;
+    right:50%;
+    top:50%;
+    bottom:50%;
+    transform:translate(-50%,-98%)
+}
+.main-text{
+    width:500px;
+   
+}
+.main-text h1{
+    font-size: 3em;
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.main-text p{
+    color:rgb(255, 255, 255);
+    font-size:1em;
+   
+}
+.second head{
+    text-align: center;
+    text-shadow: 2px 2px !important;
+
+}
+#second{
+    text-align: center;
+    font-size: 1.3em;
+    margin-left:auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding-top: 500px;
+    padding:10px;
+
+    }
+
+.second-content{
+    margin-left:auto;
+    margin-right: auto;
+    font-weight: lighter;
+
+}
+
+.second-image{
+    height:80px;
+    width:80px;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+}
+.third-image{
+    max-width: fit-content;
+    height: 300px;
+    width: 450px;
+}
+
+.zippy-col{
+    flex-basis: 31%;
+    background: rgba(191, 218, 245, 0.322);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.project-col{
+    flex-basis: 31%;
+    padding: 0px 0px;
+}
+#third{
+    background-color:rgb(147, 157, 211);
+
+}
+#fourth{
+    background-color:whitesmoke;
+
+}
+#fifth{
+    background-color:rgb(147, 157, 211);
+
+}
+.vidrow{
+    display:flex;
+    justify-content: space-between;
+}
+.video-project-col{
+    display:flex;
+    flex-basis: 31%;
+    background: rgb(147, 157, 211);
+    border-radius: 10px;
+    padding: 20px 12px;
+}
+.team{
+    height:225px;
+    width:223.99px;
+}
+#sixth{
+    background-color:whitesmoke;
+
+}
+#seventh{
+  
+    background:rgb(147, 157, 211);
+}
+
+#frame {
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+  
+#frame input[type=radio] {
+    display: none;
+}
+  
+#frame label {
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+#slides {
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+  
+#overflow {
+    width: fit-content;
+    overflow: hidden;
+}
+  
+#frame1:checked~#slides .inner {
+    margin-left: 0;
+}
+  
+#frame2:checked~#slides .inner {
+    margin-left: -100%;
+}
+  
+#frame3:checked~#slides .inner {
+    margin-left: -200%;
+}
+  
+#slides .inner {
+    transition: margin-left 800ms 
+        cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+}
+  
+#slides .frame {
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFF;
+}
+  
+  
+#controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+  
+#controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+  
+#controls label:hover {
+    opacity: 1;
+}
+  
+#bullets {
+    margin: 150px 0 0;
+    text-align: center;
+}
+  
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+  
+
+
+
+    #eighth{
+        
+        min-height:50vh;
+        width:100%;
+        background-image: linear-gradient(rgba(1, 0, 10, 0.5),rgba(1, 0, 10, 0.5)),url(images/bridge.png_dl=1);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+#ninth{
+    width:fit-content;
+}
+
+    .main-text1{
+        display: flex;
+    width:90%;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    }
+    .main-text1 h1{
+        font-size: 2.5em;
+        color:rgb(19, 20, 16);
+        margin:0px 0px 10 px 0 px; 
+        line-height: 60px;
+    }
+    
+    #eleventh,#tenth{
+        background-color:whitesmoke;
+    
+    }
+    
+ 
